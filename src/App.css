@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+#card-col {
+  margin-top: 10px;
+  border-color: #EDCB54;
+
+}
+
+#card-head {
+  background-color: #edcc546b;
+}
+
+
+.bouton {
+  background-color: #DA3535;
+  border: 2px solid #EDCB54;
+}
+
+.bouton:hover {
+  background-color: #b42e2e;
+  border: 2px solid #EDCB54;
+}
