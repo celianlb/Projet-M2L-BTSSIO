@@ -15,6 +15,6 @@ app.use('/api', usersRoute);
 
 app.get('/api', (_, res) => res.send("Hello from API v1"));
 
-app.listen(process.env.PORT, () => console.log(`Back end is running on PORT ${process.env.PORT}`));
+app.listen(5500, () => console.log(`Back end is running on PORT ${5500}`));
 
 module.exports = app;

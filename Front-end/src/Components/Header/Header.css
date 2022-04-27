@@ -1,15 +1,27 @@
 #sidemenu {
     background-color: #DA3535;
     box-shadow: inset 2px 2px 100px rgba(0, 0, 0, 0.25);
-    margin-right: 50px;
-
+    margin-right: 5%;
+    height: 100%;
 }
 
-.link {
-    font-size: 28px;
-    padding: 12px;
-    text-decoration-line: none;
-    color: white;
+@media (min-width: 992px) {
+    .link {
+        font-size: 200%;
+        padding: 12px;
+        text-decoration-line: none;
+        color: white;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .link {
+        font-size: 100%;
+        padding: 10%;
+        text-decoration-line: none;
+        color: white;
+    }
 }
 
 .link:hover {

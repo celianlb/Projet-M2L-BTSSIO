@@ -1,3 +1,7 @@
+html {
+  width: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -16,9 +20,13 @@
 .bouton {
   background-color: #DA3535;
   border: 2px solid #EDCB54;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 9999;
 }
 
 .bouton:hover {
   background-color: #b42e2e;
   border: 2px solid #EDCB54;
+  color: #FFFFFF;
 }

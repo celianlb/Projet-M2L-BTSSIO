@@ -7,7 +7,7 @@
 
 ./Pages/ * : 
 # - Contact.js
-# - Connection.js
+# - Connexion.js
 # - Inscription.js
 # - Accueil.js
 # - Competition.js
